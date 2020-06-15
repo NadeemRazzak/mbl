@@ -7,8 +7,3 @@ $myJSON = json_encode($myObj);
 
 echo $myJSON;
 ?>
-
-
-
-
-
