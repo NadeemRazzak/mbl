@@ -1,9 +1,8 @@
 <?php
-$myObj->versionCode = "1.19";
-$myObj->features = "Update";
-$myObj->url = "https://github.com/NadeemRazzak/mbl/raw/master/MBL_Verisys_1.17_final.apk";
+$obj = new stdClass();
+$obj->versionCode = "1.19";
+$obj->features = "Update";
+$obj->url = "https://github.com/NadeemRazzak/mbl/raw/master/MBL_Verisys_1.17_final.apk";
 
-$myJSON = json_encode($myObj);
-
-echo $myJSON;
+echo json_encode($obj);
 ?>
